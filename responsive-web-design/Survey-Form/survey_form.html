@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>My first Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+     <h1>Survey Form</h1>
+    <p>The card below was built as a sample survey form for freeCodeCamp.</p>
+    <header>
+      <h1 id="title">One Piece Fan club </h1>
+      <p id="description"> Enter your information here to receive updates about club activities,
+        our monthly newsletter, and other email communications.</p>
+    </header>
+    <main>
+      <form id="survey-form" action="#">
+        <label for="name" id="name-label">
+          <p>Name <input type="text" id="name" placeholder="e.g. Monkey D Luffy" required>
+          </p>
+        </label>
+        <label for="email" id="email-label">
+          <p>
+            Email <input type="email" id="email"  placeholder="e.g. bifiji5197@kameili.com" required>
+          </p>
+        </label>
+        <label for="age" id="number-label">
+          <p>
+          Age <input type="number" id="number" placeholder="e.g. 31" min="18" max="110">
+          </p>
+        </label>
+        <label for="interest" id="interest-label">
+          <p>what are you interested in
+          </p>
+          <select id="dropdown">
+            <option selected disabled hidden></option>
+            <option id="ancient-kingdom">Ancient Kingdom</option>
+            <option id="Devil-Fruits">Devil Fruits</option>
+            <option id="WG">World Goverment</option>
+            <option id="exploring">Exploring new island</option>
+          </select>
+        </label>
+        <p>Who is your favourite Straw hat?</p>
+        <label for="sanji">
+          <input
+            id="sanji"
+            type="radio"
+            name="favorite"
+            value="sanji"
+          />Sanji!
+        </label>
+        <label for="luffy">
+          <input
+            id="luffy"
+            type="radio"
+            name="favorite"
+            value="luffy"
+          />Luffy
+        </label>
+        <label for="other">
+          <input id="other" type="radio" name="favorite" value="other" />Other
+        </label>
+        <p>Which communications do you want to receive?</p>
+        <label for="newsletter">
+          <input
+            id="newsletter"
+            type="checkbox"
+            name="communications"
+            value="newsletter"
+          />Newsletter
+        </label>
+        <label for="events">
+          <input
+            id="events"
+            type="checkbox"
+            name="communications"
+            value="events"
+          />Event updates
+        </label>
+        <label for="updates">
+          <input
+            id="updates"
+            type="checkbox"
+            name="communications"
+            value="updates"
+          />Club updates
+        </label>
+        <p>Any other information you would like to share?</p>
+        <textarea id="additional-information" rows="4" cols="50">
+You can provide comments, suggestions, or feedback here.</textarea
+        >
+        <p>
+          <em
+            >Please note: This form is a proof of concept. Submitting the form
+            will not actually transmit your data.</em
+          >
+        </p>
+        <button type="Submit" id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+  <footer>
+    <a href="../">Return to Project List</a>
+  </footer>
+</html>
