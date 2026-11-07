@@ -1,0 +1,110 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  main {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Section */
+  #title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #title h1 {
+    font-size: 36px;
+    color: #1d3557;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Image Section */
+  #img-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #img-caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  /* Tribute Info */
+  #tribute-info {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #tribute-info p {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  /* Poetry Section */
+  #poetry {
+    font-size: 24px;
+    color: #1d3557;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  pre {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #333;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  #pre {
+    margin: 0;
+  }
+  
+  /* Footer Section */
+  #footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #tribute-link {
+    text-decoration: none;
+    color: #1d3557;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  #tribute-link:hover {
+    color: #e63946;
+  }
+  
